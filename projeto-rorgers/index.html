@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="shortcut icon" href="./src/imagens/estrela.ico" type="image/x-icon">
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap" rel="stylesheet" />
+
+		<link rel="stylesheet" href="./src/css/reset.css">
+
+		<link rel="stylesheet" href="./src/css/estilos.css">
+
+
+		<link rel="stylesheet" href="./src/css/responsivo.css">
+
+		<title>Captain America: The Winte Soldier</title>
+	</head>
+	<body>
+		<div class="fundo-video">
+			<video class="video" autoplay loop muted>
+				<source src="./src/video/Captain-America-The-Winter-Soldier-Official-Trailer-_1-_2014_-Marvel-Superhero-Movie-HD.mp4" type="video/mp4" />
+			</video>
+		</div>
+
+		<header class="cabecalho">
+			<a>
+				<img class="logo" src="./src/imagens/escudo.png" alt="logo escudo" />
+			</a>
+			<nav>
+				<ul class="menu">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Detalhes</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main class="container">
+			<div class="informacoes">
+				<img class="imagem-titulo" src="./src/imagens/6127d621aa481f0004ea72bf.png" alt="imagem do título do filme" />
+				<p class="descricao">Steve Rogers luta para cumprir seu papel no mundo moderno. Em parceria com Natasha Romanoff, também conhecida como Viúva Negra, ele busca derrotar um poderoso e misterioso inimigo na cidade de Washington dos dias atuais.</p>
+				<button class="botao-trailer">Veja o trailer</button>
+			</div>
+			<img class="Rogers" src="./src/imagens/rogens grande.png" />
+
+			<div class="modal">
+				<div class="conteudo-modal">
+					<span class="fechar-modal">X</span>
+					<iframe id="video" width="560" height="315" src="https://youtu.be/7SlILk2WMTI" title="Trailer oficial" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+		</main>
+
+		<script src="./src/js/index.js"></script>
+	</body>
+</html>
